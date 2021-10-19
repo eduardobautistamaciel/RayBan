@@ -1,5 +1,3 @@
-RayBan Website (Bootstrap – Responsive)
-
 # RayBan
 RayBan Website (Bootstrap – Responsive)
 > Link to website: https://adoring-yonath-94b144.netlify.app/
