@@ -1,0 +1,125 @@
+@font-face {
+	font-family: 'Bebas';
+	src: url("../fonts/Bebas.ttf");
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url("../fonts/Roboto.ttf");
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+	font-family: "Bebas", sans-serif;
+}
+
+#seccionUno {
+	font-family: "Bebas", sans-serif;
+	font-size: 4rem
+}
+
+/*HEADER*/
+
+.bg-dark {
+	background-color: black!important;
+}
+
+header #navPrincipal a {
+	font-family: "Bebas", sans-serif;
+	color: white;
+	letter-spacing: 3px;
+}
+
+header #navPrincipal a.active {
+	color: #D61B1E;
+}
+
+header #navPrincipal a:hover {
+	color: #D61B1E;
+}
+
+/*SECTION 1*/
+
+#seccionUno {
+	height: 400px;
+	background-image: url("../img/fondo.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#seccionUno article {
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 400px;
+}
+
+#seccionUno h1 {
+	color: white;
+	letter-spacing: 3px;
+	font-size: 80px;
+}
+
+/*ELLOS y ELLAS*/
+
+section article a {
+	background-color: black;
+	letter-spacing: 1px;
+	color: white;
+	font-size: 12px;
+}
+
+section article a:hover {
+	background-color: #D61B1E;
+	text-decoration: none;
+	color: white;
+}
+
+/*SECTION 2*/
+
+#seccionDos {
+	height: 400px;
+	background-image: url("../img/fondo2.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*SECTION TIENDAS*/
+
+#seccionTiendas {
+	height: 400px;
+	background-image: url("../img/store.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* TIENDAS FORMULARIO */
+
+form fieldset input, form fieldset textarea {
+	color: black;
+	border: solid 1px black;
+	resize: none;
+}
+
+form fieldset input::placeholder, form fieldset textarea::placeholder {
+	color: black;
+}
+
+form fieldset input[type="submit"] {
+	background-color: black;
+	color: white;
+	border: 0;
+}
+
+form fieldset input[type="submit"]:hover {
+	background-color: #D61B1E;
+	color: white;
+	border: 0;
+}
+
+/*FOOTER*/
+
+footer {
+	background-color: black;
+}
